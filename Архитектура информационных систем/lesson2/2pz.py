@@ -7,15 +7,12 @@ y = int(input("введите второе число: "))
 math_operation = input('введите математическое действие(+ - * /): ')
 if math_operation == "+":
     result = x + y
-    print(result, type(result))
 elif math_operation == "-":
     result = x - y
-    print(result, type(result))
 elif math_operation == "*":
     result = x * y
-    print(result, type(result))
 elif math_operation == "/":
     result = x / y
-    print(result, type(result))
 else:
     print("ошибка: операция не распознана")
+print(result, type(result))
